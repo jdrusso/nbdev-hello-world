@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev-hello-world",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "nbdev-hello-world",
+    "section": "Install",
+    "text": "Install\npip install nbdev_hello_world"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev-hello-world",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2\n\n\n\nsay_hello(5)\n\nasdf\n\n\n'Hello 5!'\n\n\n\ndoe(5)\n\n5"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "Test notebook",
+    "section": "",
+    "text": "And now, we define our own function. We can document it with a docstring."
+  },
+  {
+    "objectID": "core.html#model-class-documentation",
+    "href": "core.html#model-class-documentation",
+    "title": "Test notebook",
+    "section": "Model class documentation",
+    "text": "Model class documentation\nWe can also use show_doc(Model.get_info) to auto-generate some documentation for it\n\n\nModel.n_states\n\n Model.n_states ()\n\nCurrent number of model states\n\n\n\nModel.get_info\n\n Model.get_info ()\n\nDisplay some information about the model. Does not interact with doe.\n\n\nModel examples\nCalling get_info() is boring.\n\nm = Model(5, [1])\n\nm.get_info()\n\n'Model has 5 states'"
+  },
+  {
+    "objectID": "core.html#spam",
+    "href": "core.html#spam",
+    "title": "Test notebook",
+    "section": "Spam",
+    "text": "Spam\nDoe is a deer, a female deer.\n\nfrom fastcore.test import test_eq\n\n\ntest_eq(doe(25), 25)\n\n\ntest_eq(Model(5, [1]).get_info(), \"Model has 5 states\")\n\n\ntest_eq(Model(5, [1]).get_info(), \"Model has 15 states\")\n\nAssertionError: ==:\nModel has 5 states\nModel has 15 states"
+  }
+]
